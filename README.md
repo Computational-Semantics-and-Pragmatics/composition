@@ -1,21 +1,19 @@
-# Logic of quantification 
+# Composition 
 
-This assignment aims to introduce you to the logic of quantifiers, also known as
-first-order logic. This is a formal system that allows us to represent (and
-reason about) objects and their properties.
 
 ## Reading
 
-* Kearns Ch. 3.
-* [First-order logic notes](first-order-logic.pdf) (recommendend)
+* Kearns Ch. 4.
 
-Notes are for a deeper study. If you are new to logic, you may skip this reading
-for now, except perhaps parts related to bondage, freedom, and scope.
-
+The system that you are required to use in the assignment is the one that is
+described from 4.6 onwards. We will diverge from Kearns in our treatment of the
+iota function. Where she uses `Ix(P(x))`, we will simply use `I(P)` and we will
+not try to assign this to a constant. The meaning of `the dog` will be `I(Dog)`
+in our system.
 
 ## Our notation
 
-We will use the following symbols in writing logical formulas:
+We extend our notation as: 
 
 | Symbol | Meaning |
 |--------|---------|
@@ -26,6 +24,8 @@ We will use the following symbols in writing logical formulas:
 | `V`    | disjunction |
 | `>`    | conditional |
 | `=`    | equality|
+| `\x`   | lambda abstraction |
+| `I`    | iota function |
 
 
 ## Task

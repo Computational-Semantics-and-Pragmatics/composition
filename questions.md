@@ -1,55 +1,35 @@
 Questions on the logic of quantifiers 
 -------------------------------------
 
-Symbolize and translate the following sentences to first-order logic, for **[0.5pt]** each:
+Derive the meaning of the following expressions. You are not required to draw
+the trees for derivations. List the interpretation of items by numbering them,
+then list the function application steps. Base your solution on Kearns' Ch. 4,
+Section 4.6 onwards. The first question is answered for you as an example.
 
+1. Jack is nice. 
+    ```
+    Answer:
+    1. |Jack| = j
+    2. |nice| = \x[Nice(x)]
+    3. |is| = \P[P]
 
-1. A sample was contaminated.
+    3(2) = 4 =  \x[Nice(x)]    
+    4(1) =  Nice(j)
+    
+
+    ```
+1. **[1pt]** Jack stole the blue book.    
     ```
     Answer:
 
     ```
-1. Every semester ends.
+1. **[2pts]** Jill introduced the new student to Sue.
     ```
     Answer:
 
     ```
-1. Every student admires some movie. (Achtung: there are two readings.)
-    ```
-    Answer:
-
-    ```
-1. If an instructor fails, every student passes. (Two readings again.)
-    ```
-    Answer:
-
-    ```
-1. No student failed.
-    ```
-    Answer:
-
-    ```
-1. Some humans love math, but not all who love math are humans.
-    ```
-    Answer:
-
-    ```
-1. No book is worth reading, except if it is written before 1900. 
-    ```
-    Answer:
-
-    ```
-1. People without friends are unhappy unless they love reading.
-    ```
-    Answer:
-
-    ```
-1. Only people without friends are happy.
-    ```
-    Answer:
-
-    ```
-1. All but one student failed. 
+1. **[2pts]** Every student passed the exam. (The result of the derivation will
+   be `Ax[Student(x) > Passed(x,i(Exam))]`, where `i` is the iota function.) 
     ```
     Answer:
 
