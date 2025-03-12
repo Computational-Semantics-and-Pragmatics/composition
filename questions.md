@@ -1,5 +1,5 @@
-Questions on the logic of quantifiers 
--------------------------------------
+Questions on basics of composition 
+----------------------------------
 
 Derive the meaning of the following expressions. You are not required to draw
 the trees for derivations. List the interpretation of items by numbering them,
@@ -29,7 +29,7 @@ Section 4.6 onwards. The first question is answered for you as an example.
 
     ```
 1. **[2pts]** Every student passed the exam. (The result of the derivation will
-   be `Ax[Student(x) > Passed(x,i(Exam))]`, where `i` is the iota function.) 
+   be `Ax[Student(x) > Passed(x,I(Exam))]`.) 
     ```
     Answer:
 
